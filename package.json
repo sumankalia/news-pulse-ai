@@ -1,0 +1,38 @@
+{
+  "name": "true-lens",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "install:all": "npm install && npm run install:client && npm run install:server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumankalia/TruthLens.git"
+  },
+  "author": "Suman Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumankalia/TruthLens/issues"
+  },
+  "homepage": "https://github.com/sumankalia/TruthLens#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "@brightdata/mcp": "^1.9.1",
+    "@langchain/openai": "^0.5.11",
+    "axios": "^1.9.0",
+    "jsdom": "^26.1.0",
+    "langchain": "^0.3.27",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.2",
+    "zod": "^3.25.28"
+  }
+}

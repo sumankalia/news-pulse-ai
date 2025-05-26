@@ -6,6 +6,8 @@
 
 > ⚡ My submission [My submission](https://dev.to/challenges/brightdata-2025-05-07)
 
+**_🔒 Note: We are only pushing the core application code to GitHub and excluding sensitive components (like internal configurations, full orchestration logic, and production credentials). This is intentional, as we plan to evolve NewsPulse AI into a full-fledged real-world application post-hackathon._**
+
 ## 🌐 Live Site:
 
 Frontend: http://ec2-16-170-239-65.eu-north-1.compute.amazonaws.com:5173/
@@ -119,7 +121,7 @@ We initially used Puppeteer and manually rotated Bright Data proxies (residentia
 
 After switching to Fast MCP + STDIO communication, scraping time reduced by ~80%. This dramatically improved UX and lowered maintenance.
 
-### ✅ We’re directly running the MCP server inside our Node.js backend (Express) and communicating through standard input/output (STDIO) — this was a key architectural shift and a major technical achievement.
+### ✅ We're directly running the MCP server inside our Node.js backend (Express) and communicating through standard input/output (STDIO) — this was a key architectural shift and a major technical achievement.
 
 🔗 Compare with our older Puppeteer-based project: https://inspiring-taffy-5808f5.netlify.app/
 
@@ -132,11 +134,13 @@ After switching to Fast MCP + STDIO communication, scraping time reduced by ~80%
 
 ⸻
 
-⭐ If you liked this project or found it useful, consider giving a ⭐ on GitHub and supporting Bright Data’s MCP repo!
+⭐ If you liked this project or found it useful, consider giving a ⭐ on GitHub and supporting Bright Data's MCP repo!
 
 ## 🤝 Team
 
 Built by: Suman and Sarita Kumar
 For the 2025 Dev Challenge Hackathon
+
 # news-pulse-ai
+
 # news-pulse-ai
